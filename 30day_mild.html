@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>30-day mortality MILD</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= TAB BAR ================= -->
+<div id="tabs">
+  <a href="30day_mild.html" class="tab active">30-day mortality MILD</a>
+  <a href="30day_moderate.html" class="tab">30-day mortality MODERATE</a>
+  <a href="30day_severe.html" class="tab">30-day mortality SEVERE</a>
+  <a href="90day_mild.html" class="tab">90-day mortality MILD</a>
+  <a href="90day_moderate.html" class="tab">90-day mortality MODERATE</a>
+  <a href="90day_severe.html" class="tab">90-day mortality SEVERE</a>
+</div>
+
+<!-- ================= PAGE CONTENT ================= -->
+<div id="content">
+
+  <h1>30-day mortality MILD</h1>
+
+  <!-- Tree container (required by script.js) -->
+  <div id="tree-container"></div>
+
+</div>
+
+<!-- ================= SCRIPTS ================= -->
+<script src="script.js"></script>
+<script>
+  // Load the 30-day mortality MILD tree
+  loadTree("data/30day_mild.json");
+</script>
+
+</body>
+</html>
