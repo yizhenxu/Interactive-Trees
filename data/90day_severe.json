@@ -1,0 +1,17 @@
+{
+  "title": "All Patients – 90-day mortality SEVERE",
+  "details": [
+    "N = 12010; Observed death 3400",
+    "Counterfactual ABX mort 0.24 / No-ABX mort 0.36",
+    "conclude Strong ABX Recommendation"
+  ],
+  "children": [
+    {
+      "title": "mechanical_ventilation == 1",
+      "details": [
+        "N = 5100; Observed death 2800",
+        "conclude Strong ABX Recommendation"
+      ]
+    }
+  ]
+}
