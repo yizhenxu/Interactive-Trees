@@ -1,0 +1,18 @@
+{
+  "title": "All Patients – 30-day mortality SEVERE",
+  "details": [
+    "N = 12010; Observed death 1890",
+    "Observed ABX 10120 / No-ABX 1890",
+    "Counterfactual ABX mort 0.12 / No-ABX mort 0.19",
+    "conclude Strong ABX Recommendation"
+  ],
+  "children": [
+    {
+      "title": "icu_admission == 1",
+      "details": [
+        "N = 6400; Observed death 1400",
+        "conclude Strong ABX Recommendation"
+      ]
+    }
+  ]
+}
