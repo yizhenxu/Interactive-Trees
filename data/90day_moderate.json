@@ -1,0 +1,17 @@
+{
+  "title": "All Patients – 90-day mortality MODERATE",
+  "details": [
+    "N = 38120; Observed death 2210",
+    "Counterfactual ABX mort 0.058 / No-ABX mort 0.071",
+    "conclude ABX"
+  ],
+  "children": [
+    {
+      "title": "age ≥ 65",
+      "details": [
+        "N = 16400; Observed death 1400",
+        "conclude ABX"
+      ]
+    }
+  ]
+}
