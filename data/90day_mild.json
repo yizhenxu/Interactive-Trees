@@ -1,0 +1,17 @@
+{
+  "title": "All Patients – 90-day mortality MILD",
+  "details": [
+    "N = 44497; Observed death 1450",
+    "Counterfactual ABX mort 0.032 / No-ABX mort 0.035",
+    "conclude No Recommendation"
+  ],
+  "children": [
+    {
+      "title": "age < 65",
+      "details": [
+        "N = 27000; Observed death 520",
+        "conclude No Recommendation"
+      ]
+    }
+  ]
+}
