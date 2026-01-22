@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>30-day mortality MODERATE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="tabs">
+  <a href="30day_mild.html" class="tab">30-day mortality MILD</a>
+  <a href="30day_moderate.html" class="tab active">30-day mortality MODERATE</a>
+  <a href="30day_severe.html" class="tab">30-day mortality SEVERE</a>
+  <a href="90day_mild.html" class="tab">90-day mortality MILD</a>
+  <a href="90day_moderate.html" class="tab">90-day mortality MODERATE</a>
+  <a href="90day_severe.html" class="tab">90-day mortality SEVERE</a>
+</div>
+
+<div id="content">
+  <h1>30-day mortality MODERATE</h1>
+  <div id="tree-container"></div>
+</div>
+
+<script src="script.js"></script>
+<script>
+  loadTree("data/30day_moderate.json");
+</script>
+
+</body>
+</html>
