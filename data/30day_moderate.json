@@ -1,0 +1,25 @@
+{
+  "title": "All Patients – 30-day mortality MODERATE",
+  "details": [
+    "N = 38120; Observed death 1021",
+    "Observed ABX 29010 / No-ABX 9110",
+    "Counterfactual ABX mort 0.024 / No-ABX mort 0.031",
+    "conclude ABX"
+  ],
+  "children": [
+    {
+      "title": "lung_comorbidities == 1",
+      "details": [
+        "N = 18220; Observed death 720",
+        "conclude ABX"
+      ]
+    },
+    {
+      "title": "lung_comorbidities == 0",
+      "details": [
+        "N = 19900; Observed death 301",
+        "conclude No Recommendation"
+      ]
+    }
+  ]
+}
