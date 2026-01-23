@@ -1,6 +1,6 @@
 {
   "title": "moderate pneumonia (30-day mortality)",
-  "details": ["Observed ABX 88761 / No-ABX 17354", "BART-recommended ABX 59372.427 (55060.7, 64060.275)", "Counterfactual ABX mort 0.07 (0.069, 0.072) / No-ABX mort 0.081 (0.075, 0.087)", "conclude ABX from counterfactual diff -0.011 (-0.017, -0.005)"],
+  "details": ["N = 106115; Observed death 7499", "Observed ABX 88761 / No-ABX 17354", "BART-recommended ABX 59372.427 (55060.7, 64060.275)", "Counterfactual ABX mort 0.07 (0.069, 0.072) / No-ABX mort 0.081 (0.075, 0.087)", "conclude ABX from counterfactual diff -0.011 (-0.017, -0.005)"],
   "children": [
     {
       "title": "hypoxemia_sepsis == hypoxemia.no sepsis",
@@ -16,23 +16,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 839; Observed death 46", "Observed ABX 398 / No-ABX 441", "BART-recommended ABX 458.801 (419, 499)", "Counterfactual ABX mort 0.061 (0.054, 0.07) / No-ABX mort 0.065 (0.054, 0.075)", "conclude No Recommendation from counterfactual diff -0.003 (-0.017, 0.011)"]
+                  "details": ["N = 839; Observed death 46", "Observed ABX 398 / No-ABX 441", "BART-recommended ABX 458.801 (419, 499)", "Counterfactual ABX mort 0.061 (0.054, 0.07) / No-ABX mort 0.065 (0.054, 0.075)", "conclude No Recommendation from counterfactual diff -0.003 (-0.017, 0.011)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 89; Observed death <=15", "Observed ABX 78 / No-ABX <=15", "BART-recommended ABX 54.808 (47, 62)", "Counterfactual ABX mort 0.027 (0.021, 0.034) / No-ABX mort 0.038 (0.022, 0.059)", "conclude No Recommendation from counterfactual diff -0.011 (-0.031, 0.008)"]
+                  "details": ["N = 89; Observed death <=15", "Observed ABX 78 / No-ABX <=15", "BART-recommended ABX 54.808 (47, 62)", "Counterfactual ABX mort 0.027 (0.021, 0.034) / No-ABX mort 0.038 (0.022, 0.059)", "conclude No Recommendation from counterfactual diff -0.011 (-0.031, 0.008)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 1391; Observed death 103", "Observed ABX 1162 / No-ABX 229", "BART-recommended ABX 782.114 (717, 850)", "Counterfactual ABX mort 0.061 (0.055, 0.066) / No-ABX mort 0.06 (0.049, 0.07)", "conclude No Recommendation from counterfactual diff 0.001 (-0.01, 0.012)"]
+                  "details": ["N = 1391; Observed death 103", "Observed ABX 1162 / No-ABX 229", "BART-recommended ABX 782.114 (717, 850)", "Counterfactual ABX mort 0.061 (0.055, 0.066) / No-ABX mort 0.06 (0.049, 0.07)", "conclude No Recommendation from counterfactual diff 0.001 (-0.01, 0.012)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 33; Observed death <=15", "Observed ABX 23 / No-ABX <=15", "BART-recommended ABX 16.234 (13, 20)", "Counterfactual ABX mort 0.035 (0.025, 0.048) / No-ABX mort 0.037 (0.02, 0.056)", "conclude No Recommendation from counterfactual diff -0.002 (-0.02, 0.018)"]
+                  "details": ["N = 33; Observed death <=15", "Observed ABX 23 / No-ABX <=15", "BART-recommended ABX 16.234 (13, 20)", "Counterfactual ABX mort 0.035 (0.025, 0.048) / No-ABX mort 0.037 (0.02, 0.056)", "conclude No Recommendation from counterfactual diff -0.002 (-0.02, 0.018)"],
+                  "children": []
                 }
               ]
             },
@@ -42,23 +47,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 1059; Observed death 103", "Observed ABX 611 / No-ABX 448", "BART-recommended ABX 585.599 (537.975, 641)", "Counterfactual ABX mort 0.087 (0.079, 0.095) / No-ABX mort 0.093 (0.081, 0.106)", "conclude No Recommendation from counterfactual diff -0.006 (-0.022, 0.008)"]
+                  "details": ["N = 1059; Observed death 103", "Observed ABX 611 / No-ABX 448", "BART-recommended ABX 585.599 (537.975, 641)", "Counterfactual ABX mort 0.087 (0.079, 0.095) / No-ABX mort 0.093 (0.081, 0.106)", "conclude No Recommendation from counterfactual diff -0.006 (-0.022, 0.008)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 128; Observed death <=15", "Observed ABX 102 / No-ABX 26", "BART-recommended ABX 73.6 (64, 85.025)", "Counterfactual ABX mort 0.026 (0.02, 0.034) / No-ABX mort 0.039 (0.023, 0.06)", "conclude No Recommendation from counterfactual diff -0.013 (-0.034, 0.004)"]
+                  "details": ["N = 128; Observed death <=15", "Observed ABX 102 / No-ABX 26", "BART-recommended ABX 73.6 (64, 85.025)", "Counterfactual ABX mort 0.026 (0.02, 0.034) / No-ABX mort 0.039 (0.023, 0.06)", "conclude No Recommendation from counterfactual diff -0.013 (-0.034, 0.004)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 3516; Observed death 293", "Observed ABX 2881 / No-ABX 635", "BART-recommended ABX 1935.942 (1790.975, 2104.075)", "Counterfactual ABX mort 0.076 (0.072, 0.081) / No-ABX mort 0.078 (0.067, 0.088)", "conclude No Recommendation from counterfactual diff -0.002 (-0.013, 0.011)"]
+                  "details": ["N = 3516; Observed death 293", "Observed ABX 2881 / No-ABX 635", "BART-recommended ABX 1935.942 (1790.975, 2104.075)", "Counterfactual ABX mort 0.076 (0.072, 0.081) / No-ABX mort 0.078 (0.067, 0.088)", "conclude No Recommendation from counterfactual diff -0.002 (-0.013, 0.011)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 80; Observed death <=15", "Observed ABX 61 / No-ABX 19", "BART-recommended ABX 41.878 (32, 50)", "Counterfactual ABX mort 0.048 (0.036, 0.062) / No-ABX mort 0.059 (0.037, 0.081)", "conclude No Recommendation from counterfactual diff -0.011 (-0.034, 0.015)"]
+                  "details": ["N = 80; Observed death <=15", "Observed ABX 61 / No-ABX 19", "BART-recommended ABX 41.878 (32, 50)", "Counterfactual ABX mort 0.048 (0.036, 0.062) / No-ABX mort 0.059 (0.037, 0.081)", "conclude No Recommendation from counterfactual diff -0.011 (-0.034, 0.015)"],
+                  "children": []
                 }
               ]
             }
@@ -74,23 +84,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 203; Observed death <=15", "Observed ABX 109 / No-ABX 94", "BART-recommended ABX 114.648 (100, 128)", "Counterfactual ABX mort 0.066 (0.058, 0.073) / No-ABX mort 0.066 (0.054, 0.082)", "conclude No Recommendation from counterfactual diff 0 (-0.016, 0.015)"]
+                  "details": ["N = 203; Observed death <=15", "Observed ABX 109 / No-ABX 94", "BART-recommended ABX 114.648 (100, 128)", "Counterfactual ABX mort 0.066 (0.058, 0.073) / No-ABX mort 0.066 (0.054, 0.082)", "conclude No Recommendation from counterfactual diff 0 (-0.016, 0.015)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 1684; Observed death 92", "Observed ABX 1303 / No-ABX 381", "BART-recommended ABX 929.026 (857, 1007.025)", "Counterfactual ABX mort 0.054 (0.05, 0.058) / No-ABX mort 0.056 (0.047, 0.067)", "conclude No Recommendation from counterfactual diff -0.002 (-0.013, 0.008)"]
+                  "details": ["N = 1684; Observed death 92", "Observed ABX 1303 / No-ABX 381", "BART-recommended ABX 929.026 (857, 1007.025)", "Counterfactual ABX mort 0.054 (0.05, 0.058) / No-ABX mort 0.056 (0.047, 0.067)", "conclude No Recommendation from counterfactual diff -0.002 (-0.013, 0.008)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 }
               ]
             },
@@ -100,23 +115,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 914; Observed death 77", "Observed ABX 658 / No-ABX 256", "BART-recommended ABX 494.023 (453, 540)", "Counterfactual ABX mort 0.068 (0.062, 0.075) / No-ABX mort 0.08 (0.069, 0.094)", "conclude No Recommendation from counterfactual diff -0.012 (-0.027, 0.001)"]
+                  "details": ["N = 914; Observed death 77", "Observed ABX 658 / No-ABX 256", "BART-recommended ABX 494.023 (453, 540)", "Counterfactual ABX mort 0.068 (0.062, 0.075) / No-ABX mort 0.08 (0.069, 0.094)", "conclude No Recommendation from counterfactual diff -0.012 (-0.027, 0.001)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 222; Observed death <=15", "Observed ABX 194 / No-ABX 28", "BART-recommended ABX 123.001 (108, 138)", "Counterfactual ABX mort 0.03 (0.023, 0.039) / No-ABX mort 0.045 (0.026, 0.067)", "conclude No Recommendation from counterfactual diff -0.016 (-0.037, 0.004)"]
+                  "details": ["N = 222; Observed death <=15", "Observed ABX 194 / No-ABX 28", "BART-recommended ABX 123.001 (108, 138)", "Counterfactual ABX mort 0.03 (0.023, 0.039) / No-ABX mort 0.045 (0.026, 0.067)", "conclude No Recommendation from counterfactual diff -0.016 (-0.037, 0.004)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 6373; Observed death 351", "Observed ABX 5660 / No-ABX 713", "BART-recommended ABX 3595.616 (3350.95, 3889.025)", "Counterfactual ABX mort 0.056 (0.053, 0.06) / No-ABX mort 0.064 (0.055, 0.074)", "conclude No Recommendation from counterfactual diff -0.008 (-0.018, 0.001)"]
+                  "details": ["N = 6373; Observed death 351", "Observed ABX 5660 / No-ABX 713", "BART-recommended ABX 3595.616 (3350.95, 3889.025)", "Counterfactual ABX mort 0.056 (0.053, 0.06) / No-ABX mort 0.064 (0.055, 0.074)", "conclude No Recommendation from counterfactual diff -0.008 (-0.018, 0.001)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 110; Observed death <=15", "Observed ABX 95 / No-ABX <=15", "BART-recommended ABX 65.615 (57, 74)", "Counterfactual ABX mort 0.037 (0.027, 0.049) / No-ABX mort 0.051 (0.031, 0.072)", "conclude No Recommendation from counterfactual diff -0.014 (-0.037, 0.009)"]
+                  "details": ["N = 110; Observed death <=15", "Observed ABX 95 / No-ABX <=15", "BART-recommended ABX 65.615 (57, 74)", "Counterfactual ABX mort 0.037 (0.027, 0.049) / No-ABX mort 0.051 (0.031, 0.072)", "conclude No Recommendation from counterfactual diff -0.014 (-0.037, 0.009)"],
+                  "children": []
                 }
               ]
             }
@@ -138,23 +158,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 943; Observed death 84", "Observed ABX 534 / No-ABX 409", "BART-recommended ABX 525.581 (485, 567.025)", "Counterfactual ABX mort 0.095 (0.085, 0.104) / No-ABX mort 0.101 (0.087, 0.117)", "conclude No Recommendation from counterfactual diff -0.006 (-0.026, 0.011)"]
+                  "details": ["N = 943; Observed death 84", "Observed ABX 534 / No-ABX 409", "BART-recommended ABX 525.581 (485, 567.025)", "Counterfactual ABX mort 0.095 (0.085, 0.104) / No-ABX mort 0.101 (0.087, 0.117)", "conclude No Recommendation from counterfactual diff -0.006 (-0.026, 0.011)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 121; Observed death <=15", "Observed ABX 106 / No-ABX <=15", "BART-recommended ABX 72.418 (63, 82)", "Counterfactual ABX mort 0.038 (0.03, 0.048) / No-ABX mort 0.062 (0.04, 0.091)", "conclude No Recommendation from counterfactual diff -0.024 (-0.051, 0)"]
+                  "details": ["N = 121; Observed death <=15", "Observed ABX 106 / No-ABX <=15", "BART-recommended ABX 72.418 (63, 82)", "Counterfactual ABX mort 0.038 (0.03, 0.048) / No-ABX mort 0.062 (0.04, 0.091)", "conclude No Recommendation from counterfactual diff -0.024 (-0.051, 0)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 2145; Observed death 223", "Observed ABX 1969 / No-ABX 176", "BART-recommended ABX 1175.26 (1081.975, 1281)", "Counterfactual ABX mort 0.096 (0.09, 0.104) / No-ABX mort 0.112 (0.092, 0.131)", "conclude No Recommendation from counterfactual diff -0.016 (-0.036, 0.005)"]
+                  "details": ["N = 2145; Observed death 223", "Observed ABX 1969 / No-ABX 176", "BART-recommended ABX 1175.26 (1081.975, 1281)", "Counterfactual ABX mort 0.096 (0.09, 0.104) / No-ABX mort 0.112 (0.092, 0.131)", "conclude No Recommendation from counterfactual diff -0.016 (-0.036, 0.005)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 51; Observed death <=15", "Observed ABX 44 / No-ABX <=15", "BART-recommended ABX 27.331 (22, 33)", "Counterfactual ABX mort 0.049 (0.037, 0.068) / No-ABX mort 0.083 (0.052, 0.11)", "conclude No Recommendation from counterfactual diff -0.034 (-0.061, 0)"]
+                  "details": ["N = 51; Observed death <=15", "Observed ABX 44 / No-ABX <=15", "BART-recommended ABX 27.331 (22, 33)", "Counterfactual ABX mort 0.049 (0.037, 0.068) / No-ABX mort 0.083 (0.052, 0.11)", "conclude No Recommendation from counterfactual diff -0.034 (-0.061, 0)"],
+                  "children": []
                 }
               ]
             },
@@ -164,23 +189,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 1552; Observed death 220", "Observed ABX 1083 / No-ABX 469", "BART-recommended ABX 865.862 (797, 943.025)", "Counterfactual ABX mort 0.143 (0.134, 0.153) / No-ABX mort 0.153 (0.135, 0.17)", "conclude No Recommendation from counterfactual diff -0.009 (-0.03, 0.012)"]
+                  "details": ["N = 1552; Observed death 220", "Observed ABX 1083 / No-ABX 469", "BART-recommended ABX 865.862 (797, 943.025)", "Counterfactual ABX mort 0.143 (0.134, 0.153) / No-ABX mort 0.153 (0.135, 0.17)", "conclude No Recommendation from counterfactual diff -0.009 (-0.03, 0.012)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 248; Observed death <=15", "Observed ABX 230 / No-ABX 18", "BART-recommended ABX 142.676 (128, 157)", "Counterfactual ABX mort 0.059 (0.047, 0.072) / No-ABX mort 0.077 (0.051, 0.111)", "conclude No Recommendation from counterfactual diff -0.019 (-0.053, 0.009)"]
+                  "details": ["N = 248; Observed death <=15", "Observed ABX 230 / No-ABX 18", "BART-recommended ABX 142.676 (128, 157)", "Counterfactual ABX mort 0.059 (0.047, 0.072) / No-ABX mort 0.077 (0.051, 0.111)", "conclude No Recommendation from counterfactual diff -0.019 (-0.053, 0.009)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 6151; Observed death 778", "Observed ABX 5490 / No-ABX 661", "BART-recommended ABX 3394.924 (3144.925, 3683.025)", "Counterfactual ABX mort 0.13 (0.124, 0.135) / No-ABX mort 0.143 (0.127, 0.16)", "conclude No Recommendation from counterfactual diff -0.014 (-0.032, 0.005)"]
+                  "details": ["N = 6151; Observed death 778", "Observed ABX 5490 / No-ABX 661", "BART-recommended ABX 3394.924 (3144.925, 3683.025)", "Counterfactual ABX mort 0.13 (0.124, 0.135) / No-ABX mort 0.143 (0.127, 0.16)", "conclude No Recommendation from counterfactual diff -0.014 (-0.032, 0.005)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 139; Observed death <=15", "Observed ABX 120 / No-ABX 19", "BART-recommended ABX 78.296 (68, 90)", "Counterfactual ABX mort 0.078 (0.061, 0.097) / No-ABX mort 0.106 (0.071, 0.137)", "conclude No Recommendation from counterfactual diff -0.028 (-0.061, 0.01)"]
+                  "details": ["N = 139; Observed death <=15", "Observed ABX 120 / No-ABX 19", "BART-recommended ABX 78.296 (68, 90)", "Counterfactual ABX mort 0.078 (0.061, 0.097) / No-ABX mort 0.106 (0.071, 0.137)", "conclude No Recommendation from counterfactual diff -0.028 (-0.061, 0.01)"],
+                  "children": []
                 }
               ]
             }
@@ -196,23 +226,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 217; Observed death 32", "Observed ABX 152 / No-ABX 65", "BART-recommended ABX 129.078 (115, 144)", "Counterfactual ABX mort 0.116 (0.107, 0.125) / No-ABX mort 0.132 (0.111, 0.154)", "conclude No Recommendation from counterfactual diff -0.015 (-0.038, 0.007)"]
+                  "details": ["N = 217; Observed death 32", "Observed ABX 152 / No-ABX 65", "BART-recommended ABX 129.078 (115, 144)", "Counterfactual ABX mort 0.116 (0.107, 0.125) / No-ABX mort 0.132 (0.111, 0.154)", "conclude No Recommendation from counterfactual diff -0.015 (-0.038, 0.007)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 25; Observed death <=15", "Observed ABX 20 / No-ABX <=15", "BART-recommended ABX 13.845 (9, 18)", "Counterfactual ABX mort 0.059 (0.046, 0.073) / No-ABX mort 0.077 (0.048, 0.114)", "conclude No Recommendation from counterfactual diff -0.018 (-0.057, 0.013)"]
+                  "details": ["N = 25; Observed death <=15", "Observed ABX 20 / No-ABX <=15", "BART-recommended ABX 13.845 (9, 18)", "Counterfactual ABX mort 0.059 (0.046, 0.073) / No-ABX mort 0.077 (0.048, 0.114)", "conclude No Recommendation from counterfactual diff -0.018 (-0.057, 0.013)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 1803; Observed death 224", "Observed ABX 1535 / No-ABX 268", "BART-recommended ABX 1000.236 (922.975, 1093.025)", "Counterfactual ABX mort 0.111 (0.105, 0.117) / No-ABX mort 0.124 (0.107, 0.144)", "conclude No Recommendation from counterfactual diff -0.013 (-0.034, 0.007)"]
+                  "details": ["N = 1803; Observed death 224", "Observed ABX 1535 / No-ABX 268", "BART-recommended ABX 1000.236 (922.975, 1093.025)", "Counterfactual ABX mort 0.111 (0.105, 0.117) / No-ABX mort 0.124 (0.107, 0.144)", "conclude No Recommendation from counterfactual diff -0.013 (-0.034, 0.007)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 21; Observed death <=15", "Observed ABX 18 / No-ABX <=15", "BART-recommended ABX 12.328 (9, 16)", "Counterfactual ABX mort 0.062 (0.047, 0.078) / No-ABX mort 0.091 (0.053, 0.124)", "conclude No Recommendation from counterfactual diff -0.029 (-0.066, 0.009)"]
+                  "details": ["N = 21; Observed death <=15", "Observed ABX 18 / No-ABX <=15", "BART-recommended ABX 12.328 (9, 16)", "Counterfactual ABX mort 0.062 (0.047, 0.078) / No-ABX mort 0.091 (0.053, 0.124)", "conclude No Recommendation from counterfactual diff -0.029 (-0.066, 0.009)"],
+                  "children": []
                 }
               ]
             },
@@ -222,23 +257,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 1226; Observed death 124", "Observed ABX 992 / No-ABX 234", "BART-recommended ABX 687.46 (629.95, 751)", "Counterfactual ABX mort 0.109 (0.101, 0.117) / No-ABX mort 0.134 (0.116, 0.153)", "conclude ABX from counterfactual diff -0.026 (-0.046, -0.005)"]
+                  "details": ["N = 1226; Observed death 124", "Observed ABX 992 / No-ABX 234", "BART-recommended ABX 687.46 (629.95, 751)", "Counterfactual ABX mort 0.109 (0.101, 0.117) / No-ABX mort 0.134 (0.116, 0.153)", "conclude ABX from counterfactual diff -0.026 (-0.046, -0.005)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 342; Observed death 18", "Observed ABX 305 / No-ABX 37", "BART-recommended ABX 195.134 (173, 218)", "Counterfactual ABX mort 0.043 (0.034, 0.053) / No-ABX mort 0.069 (0.045, 0.095)", "conclude ABX from counterfactual diff -0.026 (-0.052, -0.001)"]
+                  "details": ["N = 342; Observed death 18", "Observed ABX 305 / No-ABX 37", "BART-recommended ABX 195.134 (173, 218)", "Counterfactual ABX mort 0.043 (0.034, 0.053) / No-ABX mort 0.069 (0.045, 0.095)", "conclude ABX from counterfactual diff -0.026 (-0.052, -0.001)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 9810; Observed death 808", "Observed ABX 9241 / No-ABX 569", "BART-recommended ABX 5541.056 (5131.825, 5988.05)", "Counterfactual ABX mort 0.088 (0.084, 0.092) / No-ABX mort 0.116 (0.1, 0.133)", "conclude ABX from counterfactual diff -0.028 (-0.046, -0.012)"]
+                  "details": ["N = 9810; Observed death 808", "Observed ABX 9241 / No-ABX 569", "BART-recommended ABX 5541.056 (5131.825, 5988.05)", "Counterfactual ABX mort 0.088 (0.084, 0.092) / No-ABX mort 0.116 (0.1, 0.133)", "conclude ABX from counterfactual diff -0.028 (-0.046, -0.012)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 190; Observed death <=15", "Observed ABX 174 / No-ABX 16", "BART-recommended ABX 104.978 (92.975, 118)", "Counterfactual ABX mort 0.051 (0.038, 0.066) / No-ABX mort 0.087 (0.055, 0.116)", "conclude ABX from counterfactual diff -0.036 (-0.067, -0.002)"]
+                  "details": ["N = 190; Observed death <=15", "Observed ABX 174 / No-ABX 16", "BART-recommended ABX 104.978 (92.975, 118)", "Counterfactual ABX mort 0.051 (0.038, 0.066) / No-ABX mort 0.087 (0.055, 0.116)", "conclude ABX from counterfactual diff -0.036 (-0.067, -0.002)"],
+                  "children": []
                 }
               ]
             }
@@ -260,23 +300,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 615; Observed death 28", "Observed ABX 361 / No-ABX 254", "BART-recommended ABX 357.043 (329, 392)", "Counterfactual ABX mort 0.059 (0.052, 0.066) / No-ABX mort 0.058 (0.048, 0.069)", "conclude No Recommendation from counterfactual diff 0 (-0.014, 0.014)"]
+                  "details": ["N = 615; Observed death 28", "Observed ABX 361 / No-ABX 254", "BART-recommended ABX 357.043 (329, 392)", "Counterfactual ABX mort 0.059 (0.052, 0.066) / No-ABX mort 0.058 (0.048, 0.069)", "conclude No Recommendation from counterfactual diff 0 (-0.014, 0.014)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 75; Observed death <=15", "Observed ABX 59 / No-ABX 16", "BART-recommended ABX 47.852 (41, 55)", "Counterfactual ABX mort 0.024 (0.018, 0.03) / No-ABX mort 0.031 (0.017, 0.047)", "conclude No Recommendation from counterfactual diff -0.007 (-0.022, 0.009)"]
+                  "details": ["N = 75; Observed death <=15", "Observed ABX 59 / No-ABX 16", "BART-recommended ABX 47.852 (41, 55)", "Counterfactual ABX mort 0.024 (0.018, 0.03) / No-ABX mort 0.031 (0.017, 0.047)", "conclude No Recommendation from counterfactual diff -0.007 (-0.022, 0.009)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 2907; Observed death 148", "Observed ABX 2375 / No-ABX 532", "BART-recommended ABX 1631.298 (1507.9, 1765.05)", "Counterfactual ABX mort 0.052 (0.048, 0.056) / No-ABX mort 0.051 (0.041, 0.061)", "conclude No Recommendation from counterfactual diff 0.001 (-0.009, 0.011)"]
+                  "details": ["N = 2907; Observed death 148", "Observed ABX 2375 / No-ABX 532", "BART-recommended ABX 1631.298 (1507.9, 1765.05)", "Counterfactual ABX mort 0.052 (0.048, 0.056) / No-ABX mort 0.051 (0.041, 0.061)", "conclude No Recommendation from counterfactual diff 0.001 (-0.009, 0.011)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 46; Observed death <=15", "Observed ABX 34 / No-ABX <=15", "BART-recommended ABX 25.832 (21, 32)", "Counterfactual ABX mort 0.046 (0.033, 0.061) / No-ABX mort 0.054 (0.031, 0.077)", "conclude No Recommendation from counterfactual diff -0.008 (-0.034, 0.019)"]
+                  "details": ["N = 46; Observed death <=15", "Observed ABX 34 / No-ABX <=15", "BART-recommended ABX 25.832 (21, 32)", "Counterfactual ABX mort 0.046 (0.033, 0.061) / No-ABX mort 0.054 (0.031, 0.077)", "conclude No Recommendation from counterfactual diff -0.008 (-0.034, 0.019)"],
+                  "children": []
                 }
               ]
             },
@@ -286,23 +331,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 1312; Observed death 81", "Observed ABX 826 / No-ABX 486", "BART-recommended ABX 733.837 (677.975, 795)", "Counterfactual ABX mort 0.064 (0.058, 0.071) / No-ABX mort 0.068 (0.058, 0.079)", "conclude No Recommendation from counterfactual diff -0.004 (-0.016, 0.009)"]
+                  "details": ["N = 1312; Observed death 81", "Observed ABX 826 / No-ABX 486", "BART-recommended ABX 733.837 (677.975, 795)", "Counterfactual ABX mort 0.064 (0.058, 0.071) / No-ABX mort 0.068 (0.058, 0.079)", "conclude No Recommendation from counterfactual diff -0.004 (-0.016, 0.009)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 203; Observed death <=15", "Observed ABX 171 / No-ABX 32", "BART-recommended ABX 113.287 (97, 128)", "Counterfactual ABX mort 0.025 (0.019, 0.031) / No-ABX mort 0.033 (0.019, 0.049)", "conclude No Recommendation from counterfactual diff -0.008 (-0.024, 0.007)"]
+                  "details": ["N = 203; Observed death <=15", "Observed ABX 171 / No-ABX 32", "BART-recommended ABX 113.287 (97, 128)", "Counterfactual ABX mort 0.025 (0.019, 0.031) / No-ABX mort 0.033 (0.019, 0.049)", "conclude No Recommendation from counterfactual diff -0.008 (-0.024, 0.007)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 8622; Observed death 446", "Observed ABX 6892 / No-ABX 1730", "BART-recommended ABX 4861.649 (4524.8, 5229)", "Counterfactual ABX mort 0.052 (0.049, 0.056) / No-ABX mort 0.055 (0.049, 0.062)", "conclude No Recommendation from counterfactual diff -0.003 (-0.011, 0.004)"]
+                  "details": ["N = 8622; Observed death 446", "Observed ABX 6892 / No-ABX 1730", "BART-recommended ABX 4861.649 (4524.8, 5229)", "Counterfactual ABX mort 0.052 (0.049, 0.056) / No-ABX mort 0.055 (0.049, 0.062)", "conclude No Recommendation from counterfactual diff -0.003 (-0.011, 0.004)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 148; Observed death <=15", "Observed ABX 114 / No-ABX 34", "BART-recommended ABX 88.114 (77, 100)", "Counterfactual ABX mort 0.036 (0.026, 0.047) / No-ABX mort 0.047 (0.027, 0.065)", "conclude No Recommendation from counterfactual diff -0.011 (-0.033, 0.01)"]
+                  "details": ["N = 148; Observed death <=15", "Observed ABX 114 / No-ABX 34", "BART-recommended ABX 88.114 (77, 100)", "Counterfactual ABX mort 0.036 (0.026, 0.047) / No-ABX mort 0.047 (0.027, 0.065)", "conclude No Recommendation from counterfactual diff -0.011 (-0.033, 0.01)"],
+                  "children": []
                 }
               ]
             }
@@ -318,23 +368,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 292; Observed death <=15", "Observed ABX 194 / No-ABX 98", "BART-recommended ABX 165.52 (149, 182)", "Counterfactual ABX mort 0.045 (0.04, 0.051) / No-ABX mort 0.05 (0.039, 0.064)", "conclude No Recommendation from counterfactual diff -0.005 (-0.019, 0.007)"]
+                  "details": ["N = 292; Observed death <=15", "Observed ABX 194 / No-ABX 98", "BART-recommended ABX 165.52 (149, 182)", "Counterfactual ABX mort 0.045 (0.04, 0.051) / No-ABX mort 0.05 (0.039, 0.064)", "conclude No Recommendation from counterfactual diff -0.005 (-0.019, 0.007)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 37; Observed death <=15", "Observed ABX 28 / No-ABX <=15", "BART-recommended ABX 17.652 (12, 23)", "Counterfactual ABX mort 0.028 (0.021, 0.037) / No-ABX mort 0.032 (0.017, 0.053)", "conclude No Recommendation from counterfactual diff -0.004 (-0.025, 0.012)"]
+                  "details": ["N = 37; Observed death <=15", "Observed ABX 28 / No-ABX <=15", "BART-recommended ABX 17.652 (12, 23)", "Counterfactual ABX mort 0.028 (0.021, 0.037) / No-ABX mort 0.032 (0.017, 0.053)", "conclude No Recommendation from counterfactual diff -0.004 (-0.025, 0.012)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 3028; Observed death 109", "Observed ABX 2351 / No-ABX 677", "BART-recommended ABX 1691.494 (1563.975, 1836.025)", "Counterfactual ABX mort 0.045 (0.041, 0.049) / No-ABX mort 0.049 (0.039, 0.059)", "conclude No Recommendation from counterfactual diff -0.003 (-0.012, 0.006)"]
+                  "details": ["N = 3028; Observed death 109", "Observed ABX 2351 / No-ABX 677", "BART-recommended ABX 1691.494 (1563.975, 1836.025)", "Counterfactual ABX mort 0.045 (0.041, 0.049) / No-ABX mort 0.049 (0.039, 0.059)", "conclude No Recommendation from counterfactual diff -0.003 (-0.012, 0.006)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 25; Observed death <=15", "Observed ABX 16 / No-ABX <=15", "BART-recommended ABX 13.155 (10, 17)", "Counterfactual ABX mort 0.026 (0.018, 0.036) / No-ABX mort 0.037 (0.017, 0.059)", "conclude No Recommendation from counterfactual diff -0.012 (-0.032, 0.009)"]
+                  "details": ["N = 25; Observed death <=15", "Observed ABX 16 / No-ABX <=15", "BART-recommended ABX 13.155 (10, 17)", "Counterfactual ABX mort 0.026 (0.018, 0.036) / No-ABX mort 0.037 (0.017, 0.059)", "conclude No Recommendation from counterfactual diff -0.012 (-0.032, 0.009)"],
+                  "children": []
                 }
               ]
             },
@@ -344,23 +399,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 384; Observed death 24", "Observed ABX 273 / No-ABX 111", "BART-recommended ABX 226.876 (204, 250)", "Counterfactual ABX mort 0.061 (0.055, 0.067) / No-ABX mort 0.069 (0.057, 0.082)", "conclude No Recommendation from counterfactual diff -0.008 (-0.023, 0.006)"]
+                  "details": ["N = 384; Observed death 24", "Observed ABX 273 / No-ABX 111", "BART-recommended ABX 226.876 (204, 250)", "Counterfactual ABX mort 0.061 (0.055, 0.067) / No-ABX mort 0.069 (0.057, 0.082)", "conclude No Recommendation from counterfactual diff -0.008 (-0.023, 0.006)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 69; Observed death <=15", "Observed ABX 60 / No-ABX <=15", "BART-recommended ABX 34.54 (28, 42)", "Counterfactual ABX mort 0.026 (0.02, 0.033) / No-ABX mort 0.035 (0.02, 0.053)", "conclude No Recommendation from counterfactual diff -0.009 (-0.027, 0.006)"]
+                  "details": ["N = 69; Observed death <=15", "Observed ABX 60 / No-ABX <=15", "BART-recommended ABX 34.54 (28, 42)", "Counterfactual ABX mort 0.026 (0.02, 0.033) / No-ABX mort 0.035 (0.02, 0.053)", "conclude No Recommendation from counterfactual diff -0.009 (-0.027, 0.006)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 3632; Observed death 190", "Observed ABX 3178 / No-ABX 454", "BART-recommended ABX 2053.193 (1905.975, 2219.05)", "Counterfactual ABX mort 0.049 (0.045, 0.052) / No-ABX mort 0.056 (0.047, 0.064)", "conclude No Recommendation from counterfactual diff -0.007 (-0.017, 0.003)"]
+                  "details": ["N = 3632; Observed death 190", "Observed ABX 3178 / No-ABX 454", "BART-recommended ABX 2053.193 (1905.975, 2219.05)", "Counterfactual ABX mort 0.049 (0.045, 0.052) / No-ABX mort 0.056 (0.047, 0.064)", "conclude No Recommendation from counterfactual diff -0.007 (-0.017, 0.003)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 50; Observed death <=15", "Observed ABX 32 / No-ABX 18", "BART-recommended ABX 26.611 (21, 33)", "Counterfactual ABX mort 0.039 (0.029, 0.052) / No-ABX mort 0.05 (0.03, 0.072)", "conclude No Recommendation from counterfactual diff -0.011 (-0.037, 0.013)"]
+                  "details": ["N = 50; Observed death <=15", "Observed ABX 32 / No-ABX 18", "BART-recommended ABX 26.611 (21, 33)", "Counterfactual ABX mort 0.039 (0.029, 0.052) / No-ABX mort 0.05 (0.03, 0.072)", "conclude No Recommendation from counterfactual diff -0.011 (-0.037, 0.013)"],
+                  "children": []
                 }
               ]
             }
@@ -382,23 +442,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 1469; Observed death 73", "Observed ABX 828 / No-ABX 641", "BART-recommended ABX 808.123 (735, 880.025)", "Counterfactual ABX mort 0.047 (0.042, 0.052) / No-ABX mort 0.052 (0.044, 0.062)", "conclude No Recommendation from counterfactual diff -0.005 (-0.016, 0.005)"]
+                  "details": ["N = 1469; Observed death 73", "Observed ABX 828 / No-ABX 641", "BART-recommended ABX 808.123 (735, 880.025)", "Counterfactual ABX mort 0.047 (0.042, 0.052) / No-ABX mort 0.052 (0.044, 0.062)", "conclude No Recommendation from counterfactual diff -0.005 (-0.016, 0.005)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 312; Observed death <=15", "Observed ABX 242 / No-ABX 70", "BART-recommended ABX 164.275 (145.975, 183)", "Counterfactual ABX mort 0.014 (0.011, 0.018) / No-ABX mort 0.021 (0.012, 0.032)", "conclude No Recommendation from counterfactual diff -0.006 (-0.017, 0.003)"]
+                  "details": ["N = 312; Observed death <=15", "Observed ABX 242 / No-ABX 70", "BART-recommended ABX 164.275 (145.975, 183)", "Counterfactual ABX mort 0.014 (0.011, 0.018) / No-ABX mort 0.021 (0.012, 0.032)", "conclude No Recommendation from counterfactual diff -0.006 (-0.017, 0.003)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 6248; Observed death 296", "Observed ABX 5615 / No-ABX 633", "BART-recommended ABX 3533.725 (3264.975, 3822.05)", "Counterfactual ABX mort 0.044 (0.041, 0.048) / No-ABX mort 0.052 (0.043, 0.061)", "conclude No Recommendation from counterfactual diff -0.008 (-0.017, 0.001)"]
+                  "details": ["N = 6248; Observed death 296", "Observed ABX 5615 / No-ABX 633", "BART-recommended ABX 3533.725 (3264.975, 3822.05)", "Counterfactual ABX mort 0.044 (0.041, 0.048) / No-ABX mort 0.052 (0.043, 0.061)", "conclude No Recommendation from counterfactual diff -0.008 (-0.017, 0.001)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 89; Observed death <=15", "Observed ABX 71 / No-ABX 18", "BART-recommended ABX 49.975 (42, 58)", "Counterfactual ABX mort 0.025 (0.018, 0.036) / No-ABX mort 0.038 (0.022, 0.052)", "conclude No Recommendation from counterfactual diff -0.013 (-0.028, 0.003)"]
+                  "details": ["N = 89; Observed death <=15", "Observed ABX 71 / No-ABX 18", "BART-recommended ABX 49.975 (42, 58)", "Counterfactual ABX mort 0.025 (0.018, 0.036) / No-ABX mort 0.038 (0.022, 0.052)", "conclude No Recommendation from counterfactual diff -0.013 (-0.028, 0.003)"],
+                  "children": []
                 }
               ]
             },
@@ -408,23 +473,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 2323; Observed death 219", "Observed ABX 1589 / No-ABX 734", "BART-recommended ABX 1294.755 (1184, 1412.025)", "Counterfactual ABX mort 0.09 (0.084, 0.096) / No-ABX mort 0.098 (0.086, 0.11)", "conclude No Recommendation from counterfactual diff -0.008 (-0.021, 0.006)"]
+                  "details": ["N = 2323; Observed death 219", "Observed ABX 1589 / No-ABX 734", "BART-recommended ABX 1294.755 (1184, 1412.025)", "Counterfactual ABX mort 0.09 (0.084, 0.096) / No-ABX mort 0.098 (0.086, 0.11)", "conclude No Recommendation from counterfactual diff -0.008 (-0.021, 0.006)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 425; Observed death <=15", "Observed ABX 339 / No-ABX 86", "BART-recommended ABX 246.878 (224, 274)", "Counterfactual ABX mort 0.032 (0.026, 0.039) / No-ABX mort 0.044 (0.028, 0.065)", "conclude No Recommendation from counterfactual diff -0.011 (-0.032, 0.006)"]
+                  "details": ["N = 425; Observed death <=15", "Observed ABX 339 / No-ABX 86", "BART-recommended ABX 246.878 (224, 274)", "Counterfactual ABX mort 0.032 (0.026, 0.039) / No-ABX mort 0.044 (0.028, 0.065)", "conclude No Recommendation from counterfactual diff -0.011 (-0.032, 0.006)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 14073; Observed death 1115", "Observed ABX 12063 / No-ABX 2010", "BART-recommended ABX 7826.163 (7253.775, 8449.225)", "Counterfactual ABX mort 0.08 (0.077, 0.083) / No-ABX mort 0.089 (0.081, 0.099)", "conclude No Recommendation from counterfactual diff -0.009 (-0.019, 0.001)"]
+                  "details": ["N = 14073; Observed death 1115", "Observed ABX 12063 / No-ABX 2010", "BART-recommended ABX 7826.163 (7253.775, 8449.225)", "Counterfactual ABX mort 0.08 (0.077, 0.083) / No-ABX mort 0.089 (0.081, 0.099)", "conclude No Recommendation from counterfactual diff -0.009 (-0.019, 0.001)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 197; Observed death <=15", "Observed ABX 160 / No-ABX 37", "BART-recommended ABX 108.809 (95, 122.025)", "Counterfactual ABX mort 0.049 (0.038, 0.063) / No-ABX mort 0.072 (0.047, 0.094)", "conclude No Recommendation from counterfactual diff -0.023 (-0.045, 0.003)"]
+                  "details": ["N = 197; Observed death <=15", "Observed ABX 160 / No-ABX 37", "BART-recommended ABX 108.809 (95, 122.025)", "Counterfactual ABX mort 0.049 (0.038, 0.063) / No-ABX mort 0.072 (0.047, 0.094)", "conclude No Recommendation from counterfactual diff -0.023 (-0.045, 0.003)"],
+                  "children": []
                 }
               ]
             }
@@ -440,23 +510,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 517; Observed death 44", "Observed ABX 345 / No-ABX 172", "BART-recommended ABX 292.59 (264, 322)", "Counterfactual ABX mort 0.063 (0.057, 0.068) / No-ABX mort 0.069 (0.057, 0.082)", "conclude No Recommendation from counterfactual diff -0.006 (-0.021, 0.008)"]
+                  "details": ["N = 517; Observed death 44", "Observed ABX 345 / No-ABX 172", "BART-recommended ABX 292.59 (264, 322)", "Counterfactual ABX mort 0.063 (0.057, 0.068) / No-ABX mort 0.069 (0.057, 0.082)", "conclude No Recommendation from counterfactual diff -0.006 (-0.021, 0.008)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 93; Observed death <=15", "Observed ABX 70 / No-ABX 23", "BART-recommended ABX 50.381 (43, 57)", "Counterfactual ABX mort 0.019 (0.014, 0.025) / No-ABX mort 0.025 (0.014, 0.038)", "conclude No Recommendation from counterfactual diff -0.005 (-0.019, 0.005)"]
+                  "details": ["N = 93; Observed death <=15", "Observed ABX 70 / No-ABX 23", "BART-recommended ABX 50.381 (43, 57)", "Counterfactual ABX mort 0.019 (0.014, 0.025) / No-ABX mort 0.025 (0.014, 0.038)", "conclude No Recommendation from counterfactual diff -0.005 (-0.019, 0.005)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 4658; Observed death 280", "Observed ABX 3845 / No-ABX 813", "BART-recommended ABX 2604.372 (2400, 2812)", "Counterfactual ABX mort 0.06 (0.056, 0.064) / No-ABX mort 0.068 (0.058, 0.078)", "conclude No Recommendation from counterfactual diff -0.008 (-0.018, 0.003)"]
+                  "details": ["N = 4658; Observed death 280", "Observed ABX 3845 / No-ABX 813", "BART-recommended ABX 2604.372 (2400, 2812)", "Counterfactual ABX mort 0.06 (0.056, 0.064) / No-ABX mort 0.068 (0.058, 0.078)", "conclude No Recommendation from counterfactual diff -0.008 (-0.018, 0.003)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 46; Observed death <=15", "Observed ABX 38 / No-ABX <=15", "BART-recommended ABX 26 (21, 31)", "Counterfactual ABX mort 0.046 (0.033, 0.062) / No-ABX mort 0.063 (0.037, 0.085)", "conclude No Recommendation from counterfactual diff -0.017 (-0.04, 0.011)"]
+                  "details": ["N = 46; Observed death <=15", "Observed ABX 38 / No-ABX <=15", "BART-recommended ABX 26 (21, 31)", "Counterfactual ABX mort 0.046 (0.033, 0.062) / No-ABX mort 0.063 (0.037, 0.085)", "conclude No Recommendation from counterfactual diff -0.017 (-0.04, 0.011)"],
+                  "children": []
                 }
               ]
             },
@@ -466,23 +541,28 @@
               "children": [
                 {
                   "title": "virus == covid",
-                  "details": ["N = 985; Observed death 74", "Observed ABX 750 / No-ABX 235", "BART-recommended ABX 562.998 (508.975, 615)", "Counterfactual ABX mort 0.071 (0.066, 0.077) / No-ABX mort 0.086 (0.072, 0.099)", "conclude No Recommendation from counterfactual diff -0.014 (-0.028, 0.002)"]
+                  "details": ["N = 985; Observed death 74", "Observed ABX 750 / No-ABX 235", "BART-recommended ABX 562.998 (508.975, 615)", "Counterfactual ABX mort 0.071 (0.066, 0.077) / No-ABX mort 0.086 (0.072, 0.099)", "conclude No Recommendation from counterfactual diff -0.014 (-0.028, 0.002)"],
+                  "children": []
                 },
                 {
                   "title": "virus == flu",
-                  "details": ["N = 250; Observed death <=15", "Observed ABX 209 / No-ABX 41", "BART-recommended ABX 143.306 (127, 159.025)", "Counterfactual ABX mort 0.024 (0.019, 0.031) / No-ABX mort 0.039 (0.025, 0.058)", "conclude No Recommendation from counterfactual diff -0.015 (-0.034, 0)"]
+                  "details": ["N = 250; Observed death <=15", "Observed ABX 209 / No-ABX 41", "BART-recommended ABX 143.306 (127, 159.025)", "Counterfactual ABX mort 0.024 (0.019, 0.031) / No-ABX mort 0.039 (0.025, 0.058)", "conclude No Recommendation from counterfactual diff -0.015 (-0.034, 0)"],
+                  "children": []
                 },
                 {
                   "title": "virus == none",
-                  "details": ["N = 8234; Observed death 551", "Observed ABX 7450 / No-ABX 784", "BART-recommended ABX 4574.823 (4231.875, 4941.075)", "Counterfactual ABX mort 0.061 (0.058, 0.064) / No-ABX mort 0.079 (0.07, 0.089)", "conclude ABX from counterfactual diff -0.018 (-0.028, -0.008)"]
+                  "details": ["N = 8234; Observed death 551", "Observed ABX 7450 / No-ABX 784", "BART-recommended ABX 4574.823 (4231.875, 4941.075)", "Counterfactual ABX mort 0.061 (0.058, 0.064) / No-ABX mort 0.079 (0.07, 0.089)", "conclude ABX from counterfactual diff -0.018 (-0.028, -0.008)"],
+                  "children": []
                 },
                 {
                   "title": "virus == other",
-                  "details": "N < 20"
+                  "details": "N < 20",
+                  "children": []
                 },
                 {
                   "title": "virus == rsv",
-                  "details": ["N = 138; Observed death <=15", "Observed ABX 118 / No-ABX 20", "BART-recommended ABX 85.073 (75, 96)", "Counterfactual ABX mort 0.036 (0.026, 0.047) / No-ABX mort 0.051 (0.03, 0.07)", "conclude No Recommendation from counterfactual diff -0.016 (-0.035, 0.007)"]
+                  "details": ["N = 138; Observed death <=15", "Observed ABX 118 / No-ABX 20", "BART-recommended ABX 85.073 (75, 96)", "Counterfactual ABX mort 0.036 (0.026, 0.047) / No-ABX mort 0.051 (0.03, 0.07)", "conclude No Recommendation from counterfactual diff -0.016 (-0.035, 0.007)"],
+                  "children": []
                 }
               ]
             }
