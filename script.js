@@ -8,6 +8,15 @@ function createNode(nodeData) {
   const box = document.createElement("div");
   box.className = "node-box";
 
+  // ---- NEW: background color from JSON field `color` ----
+  // Expected: nodeData.color = "lightgrey" (or any valid CSS color).
+  // Falls back to white if missing/empty.
+  const nodeColor =
+    nodeData && typeof nodeData.color === "string" && nodeData.color.trim().length > 0
+      ? nodeData.color.trim()
+      : "white";
+  box.style.backgroundColor = nodeColor;
+
   // Title
   const titleEl = document.createElement("div");
   titleEl.style.fontWeight = "bold";
@@ -19,7 +28,7 @@ function createNode(nodeData) {
   const details = nodeData ? nodeData.details : null;
 
   if (Array.isArray(details)) {
-    details.forEach(line => {
+    details.forEach((line) => {
       const lineEl = document.createElement("div");
       lineEl.textContent = line != null ? String(line) : "";
       box.appendChild(lineEl);
@@ -46,7 +55,7 @@ function createNode(nodeData) {
       childrenContainer = document.createElement("div");
       childrenContainer.className = "children";
 
-      kids.forEach(child => {
+      kids.forEach((child) => {
         childrenContainer.appendChild(createNode(child));
       });
 
@@ -67,17 +76,17 @@ function createNode(nodeData) {
 // -----------------------------
 function loadTree(jsonPath) {
   fetch(jsonPath)
-    .then(res => {
+    .then((res) => {
       if (!res.ok) throw new Error(`HTTP ${res.status} while fetching ${jsonPath}`);
       return res.json();
     })
-    .then(treeData => {
+    .then((treeData) => {
       const container = document.getElementById("tree-container");
       if (!container) throw new Error("Missing element with id='tree-container'");
       container.innerHTML = "";
       container.appendChild(createNode(treeData));
     })
-    .catch(err => {
+    .catch((err) => {
       console.error("Failed to load tree:", err);
     });
 }
