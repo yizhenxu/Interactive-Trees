@@ -1,33 +1,33 @@
 {
   "title": "mild pneumonia (90-day mortality)",
-  "details": ["N = 44497; Observed death 789", "Observed ABX 35216 / No-ABX 9281", "Counterfactual ABX mort 0.018 (0.016, 0.019) / No-ABX mort 0.02 (0.018, 0.024)", "conclude No Recommendation from counterfactual diff -0.003 (-0.006, 0)", "R=mort ABX/NoABX 1.799 (1.202, 2.851) P(R<0.9)=0 P(R>1.1)=0.994"],
+  "details": ["N = 44497; Observed death 789", "Observed ABX 35216 / No-ABX 9281", "Counterfactual ABX mort 0.018 (0.016, 0.019) / No-ABX mort 0.02 (0.018, 0.024)", "conclude No Recommendation from counterfactual diff -0.003 (-0.006, 0)", "Rbar=mean(mort ABX/NoABX) 1.799 (1.202, 2.851) P(Rbar<0.9)=0 P(Rbar>1.1)=0.994", "Ri^=postm(mort_i ABX/NoABX)1.799 (0.352, 6.702) prop(Ri^<0.9)=0.343 prop(Ri^>1.1)=0.544", "Average posteror prob P(Ri < 0.9) = 0.514, P(Ri > 1.1) = 0.404"],
   "color": "white",
   "children": [
     {
       "title": "lung_comorbidities == 0",
-      "details": ["N = 29542; Observed death 439", "Observed ABX 23026 / No-ABX 6516", "Counterfactual ABX mort 0.015 (0.013, 0.017) / No-ABX mort 0.016 (0.013, 0.019)", "conclude No Recommendation from counterfactual diff -0.001 (-0.005, 0.002)", "R=mort ABX/NoABX 1.873 (1.189, 3.275) P(R<0.9)=0 P(R>1.1)=0.996"],
+      "details": ["N = 29542; Observed death 439", "Observed ABX 23026 / No-ABX 6516", "Counterfactual ABX mort 0.015 (0.013, 0.017) / No-ABX mort 0.016 (0.013, 0.019)", "conclude No Recommendation from counterfactual diff -0.001 (-0.005, 0.002)", "Rbar=mean(mort ABX/NoABX) 1.873 (1.189, 3.275) P(Rbar<0.9)=0 P(Rbar>1.1)=0.996", "Ri^=postm(mort_i ABX/NoABX)1.873 (0.379, 7.037) prop(Ri^<0.9)=0.323 prop(Ri^>1.1)=0.565", "Average posteror prob P(Ri < 0.9) = 0.493, P(Ri > 1.1) = 0.423"],
       "color": "white",
       "children": [
         {
           "title": "comorbidities_not_cpd == 0",
-          "details": ["N = 15428; Observed death 134", "Observed ABX 12006 / No-ABX 3422", "Counterfactual ABX mort 0.009 (0.007, 0.01) / No-ABX mort 0.013 (0.01, 0.016)", "conclude ABX from counterfactual diff -0.004 (-0.007, -0.001)", "R=mort ABX/NoABX 1.405 (0.725, 2.706) P(R<0.9)=0.099 P(R>1.1)=0.706"],
+          "details": ["N = 15428; Observed death 134", "Observed ABX 12006 / No-ABX 3422", "Counterfactual ABX mort 0.009 (0.007, 0.01) / No-ABX mort 0.013 (0.01, 0.016)", "conclude ABX from counterfactual diff -0.004 (-0.007, -0.001)", "Rbar=mean(mort ABX/NoABX) 1.405 (0.725, 2.706) P(Rbar<0.9)=0.099 P(Rbar>1.1)=0.706", "Ri^=postm(mort_i ABX/NoABX)1.405 (0.342, 5.206) prop(Ri^<0.9)=0.481 prop(Ri^>1.1)=0.404", "Average posteror prob P(Ri < 0.9) = 0.613, P(Ri > 1.1) = 0.311"],
           "color": "white",
           "children": [
             {
               "title": "virus == covid",
-              "details": ["N = 2416; Observed death 30", "Observed ABX 1318 / No-ABX 1098", "Counterfactual ABX mort 0.011 (0.008, 0.015) / No-ABX mort 0.012 (0.008, 0.016)", "conclude No Recommendation from counterfactual diff -0.001 (-0.006, 0.004)", "R=mort ABX/NoABX 2.278 (1.039, 5.131) P(R<0.9)=0.01 P(R>1.1)=0.959"],
+              "details": ["N = 2416; Observed death 30", "Observed ABX 1318 / No-ABX 1098", "Counterfactual ABX mort 0.011 (0.008, 0.015) / No-ABX mort 0.012 (0.008, 0.016)", "conclude No Recommendation from counterfactual diff -0.001 (-0.006, 0.004)", "Rbar=mean(mort ABX/NoABX) 2.278 (1.039, 5.131) P(Rbar<0.9)=0.01 P(Rbar>1.1)=0.959", "Ri^=postm(mort_i ABX/NoABX)2.278 (0.503, 8.258) prop(Ri^<0.9)=0.184 prop(Ri^>1.1)=0.7", "Average posteror prob P(Ri < 0.9) = 0.418, P(Ri > 1.1) = 0.497"],
               "color": "white",
               "children": []
             },
             {
               "title": "virus == flu",
-              "details": ["N = 532; Observed death <=15", "Observed ABX 393 / No-ABX 139", "Counterfactual ABX mort 0.002 (0.001, 0.004) / No-ABX mort 0.005 (0.001, 0.012)", "conclude No Recommendation from counterfactual diff -0.003 (-0.01, 0.001)", "R=mort ABX/NoABX 1.594 (0.184, 6.017) P(R<0.9)=0.473 P(R>1.1)=0.464"],
+              "details": ["N = 532; Observed death <=15", "Observed ABX 393 / No-ABX 139", "Counterfactual ABX mort 0.002 (0.001, 0.004) / No-ABX mort 0.005 (0.001, 0.012)", "conclude No Recommendation from counterfactual diff -0.003 (-0.01, 0.001)", "Rbar=mean(mort ABX/NoABX) 1.594 (0.184, 6.017) P(Rbar<0.9)=0.473 P(Rbar>1.1)=0.464", "Ri^=postm(mort_i ABX/NoABX)1.594 (0.4, 6.508) prop(Ri^<0.9)=0.35 prop(Ri^>1.1)=0.509", "Average posteror prob P(Ri < 0.9) = 0.661, P(Ri > 1.1) = 0.286"],
               "color": "white",
               "children": []
             },
             {
               "title": "virus == none",
-              "details": ["N = 11896; Observed death 101", "Observed ABX 9836 / No-ABX 2060", "Counterfactual ABX mort 0.008 (0.007, 0.01) / No-ABX mort 0.013 (0.01, 0.017)", "conclude ABX from counterfactual diff -0.005 (-0.008, -0.002)", "R=mort ABX/NoABX 1.195 (0.644, 2.146) P(R<0.9)=0.235 P(R>1.1)=0.516"],
+              "details": ["N = 11896; Observed death 101", "Observed ABX 9836 / No-ABX 2060", "Counterfactual ABX mort 0.008 (0.007, 0.01) / No-ABX mort 0.013 (0.01, 0.017)", "conclude ABX from counterfactual diff -0.005 (-0.008, -0.002)", "Rbar=mean(mort ABX/NoABX) 1.195 (0.644, 2.146) P(Rbar<0.9)=0.235 P(Rbar>1.1)=0.516", "Ri^=postm(mort_i ABX/NoABX)1.195 (0.335, 4.302) prop(Ri^<0.9)=0.559 prop(Ri^>1.1)=0.328", "Average posteror prob P(Ri < 0.9) = 0.652, P(Ri > 1.1) = 0.272"],
               "color": "white",
               "children": []
             },
@@ -39,7 +39,7 @@
             },
             {
               "title": "virus == rsv",
-              "details": ["N = 182; Observed death <=15", "Observed ABX 129 / No-ABX 53", "Counterfactual ABX mort 0.004 (0.002, 0.007) / No-ABX mort 0.007 (0.002, 0.013)", "conclude No Recommendation from counterfactual diff -0.003 (-0.009, 0.004)", "R=mort ABX/NoABX 1.827 (0.269, 9.156) P(R<0.9)=0.411 P(R>1.1)=0.479"],
+              "details": ["N = 182; Observed death <=15", "Observed ABX 129 / No-ABX 53", "Counterfactual ABX mort 0.004 (0.002, 0.007) / No-ABX mort 0.007 (0.002, 0.013)", "conclude No Recommendation from counterfactual diff -0.003 (-0.009, 0.004)", "Rbar=mean(mort ABX/NoABX) 1.827 (0.269, 9.156) P(Rbar<0.9)=0.411 P(Rbar>1.1)=0.479", "Ri^=postm(mort_i ABX/NoABX)1.827 (0.538, 7.03) prop(Ri^<0.9)=0.291 prop(Ri^>1.1)=0.577", "Average posteror prob P(Ri < 0.9) = 0.605, P(Ri > 1.1) = 0.333"],
               "color": "white",
               "children": []
             }
@@ -47,24 +47,24 @@
         },
         {
           "title": "comorbidities_not_cpd == 1",
-          "details": ["N = 14114; Observed death 305", "Observed ABX 11020 / No-ABX 3094", "Counterfactual ABX mort 0.022 (0.019, 0.025) / No-ABX mort 0.02 (0.016, 0.024)", "conclude No Recommendation from counterfactual diff 0.002 (-0.003, 0.007)", "R=mort ABX/NoABX 2.384 (1.512, 4.047) P(R<0.9)=0 P(R>1.1)=1"],
+          "details": ["N = 14114; Observed death 305", "Observed ABX 11020 / No-ABX 3094", "Counterfactual ABX mort 0.022 (0.019, 0.025) / No-ABX mort 0.02 (0.016, 0.024)", "conclude No Recommendation from counterfactual diff 0.002 (-0.003, 0.007)", "Rbar=mean(mort ABX/NoABX) 2.384 (1.512, 4.047) P(Rbar<0.9)=0 P(Rbar>1.1)=1", "Ri^=postm(mort_i ABX/NoABX)2.384 (0.592, 8.385) prop(Ri^<0.9)=0.151 prop(Ri^>1.1)=0.742", "Average posteror prob P(Ri < 0.9) = 0.362, P(Ri > 1.1) = 0.544"],
           "color": "white",
           "children": [
             {
               "title": "virus == covid",
-              "details": ["N = 1808; Observed death 48", "Observed ABX 1047 / No-ABX 761", "Counterfactual ABX mort 0.029 (0.022, 0.036) / No-ABX mort 0.019 (0.014, 0.023)", "conclude NoABX from counterfactual diff 0.01 (0.002, 0.019)", "R=mort ABX/NoABX 3.501 (2.035, 6.276) P(R<0.9)=0 P(R>1.1)=1"],
+              "details": ["N = 1808; Observed death 48", "Observed ABX 1047 / No-ABX 761", "Counterfactual ABX mort 0.029 (0.022, 0.036) / No-ABX mort 0.019 (0.014, 0.023)", "conclude NoABX from counterfactual diff 0.01 (0.002, 0.019)", "Rbar=mean(mort ABX/NoABX) 3.501 (2.035, 6.276) P(Rbar<0.9)=0 P(Rbar>1.1)=1", "Ri^=postm(mort_i ABX/NoABX)3.501 (0.902, 11.214) prop(Ri^<0.9)=0.025 prop(Ri^>1.1)=0.937", "Average posteror prob P(Ri < 0.9) = 0.198, P(Ri > 1.1) = 0.728"],
               "color": "white",
               "children": []
             },
             {
               "title": "virus == flu",
-              "details": ["N = 441; Observed death <=15", "Observed ABX 334 / No-ABX 107", "Counterfactual ABX mort 0.008 (0.004, 0.014) / No-ABX mort 0.011 (0.003, 0.024)", "conclude No Recommendation from counterfactual diff -0.003 (-0.017, 0.007)", "R=mort ABX/NoABX 3.012 (0.369, 10.192) P(R<0.9)=0.207 P(R>1.1)=0.737"],
+              "details": ["N = 441; Observed death <=15", "Observed ABX 334 / No-ABX 107", "Counterfactual ABX mort 0.008 (0.004, 0.014) / No-ABX mort 0.011 (0.003, 0.024)", "conclude No Recommendation from counterfactual diff -0.003 (-0.017, 0.007)", "Rbar=mean(mort ABX/NoABX) 3.012 (0.369, 10.192) P(Rbar<0.9)=0.207 P(Rbar>1.1)=0.737", "Ri^=postm(mort_i ABX/NoABX)3.012 (0.648, 12.639) prop(Ri^<0.9)=0.077 prop(Ri^>1.1)=0.853", "Average posteror prob P(Ri < 0.9) = 0.461, P(Ri > 1.1) = 0.475"],
               "color": "white",
               "children": []
             },
             {
               "title": "virus == none",
-              "details": ["N = 11260; Observed death 248", "Observed ABX 9147 / No-ABX 2113", "Counterfactual ABX mort 0.022 (0.019, 0.025) / No-ABX mort 0.021 (0.016, 0.026)", "conclude No Recommendation from counterfactual diff 0.001 (-0.005, 0.006)", "R=mort ABX/NoABX 2.121 (1.334, 3.679) P(R<0.9)=0 P(R>1.1)=1"],
+              "details": ["N = 11260; Observed death 248", "Observed ABX 9147 / No-ABX 2113", "Counterfactual ABX mort 0.022 (0.019, 0.025) / No-ABX mort 0.021 (0.016, 0.026)", "conclude No Recommendation from counterfactual diff 0.001 (-0.005, 0.006)", "Rbar=mean(mort ABX/NoABX) 2.121 (1.334, 3.679) P(Rbar<0.9)=0 P(Rbar>1.1)=1", "Ri^=postm(mort_i ABX/NoABX)2.121 (0.577, 7.54) prop(Ri^<0.9)=0.179 prop(Ri^>1.1)=0.698", "Average posteror prob P(Ri < 0.9) = 0.385, P(Ri > 1.1) = 0.517"],
               "color": "white",
               "children": []
             },
@@ -76,7 +76,7 @@
             },
             {
               "title": "virus == rsv",
-              "details": ["N = 215; Observed death <=15", "Observed ABX 170 / No-ABX 45", "Counterfactual ABX mort 0.013 (0.005, 0.02) / No-ABX mort 0.011 (0.003, 0.021)", "conclude No Recommendation from counterfactual diff 0.002 (-0.011, 0.015)", "R=mort ABX/NoABX 3.753 (0.665, 15.203) P(R<0.9)=0.085 P(R>1.1)=0.872"],
+              "details": ["N = 215; Observed death <=15", "Observed ABX 170 / No-ABX 45", "Counterfactual ABX mort 0.013 (0.005, 0.02) / No-ABX mort 0.011 (0.003, 0.021)", "conclude No Recommendation from counterfactual diff 0.002 (-0.011, 0.015)", "Rbar=mean(mort ABX/NoABX) 3.753 (0.665, 15.203) P(Rbar<0.9)=0.085 P(Rbar>1.1)=0.872", "Ri^=postm(mort_i ABX/NoABX)3.753 (0.88, 14.388) prop(Ri^<0.9)=0.033 prop(Ri^>1.1)=0.949", "Average posteror prob P(Ri < 0.9) = 0.35, P(Ri > 1.1) = 0.58"],
               "color": "white",
               "children": []
             }
@@ -86,29 +86,29 @@
     },
     {
       "title": "lung_comorbidities == 1",
-      "details": ["N = 14955; Observed death 350", "Observed ABX 12190 / No-ABX 2765", "Counterfactual ABX mort 0.023 (0.02, 0.025) / No-ABX mort 0.029 (0.023, 0.036)", "conclude No Recommendation from counterfactual diff -0.006 (-0.013, 0)", "R=mort ABX/NoABX 1.654 (1.027, 2.588) P(R<0.9)=0.004 P(R>1.1)=0.954"],
+      "details": ["N = 14955; Observed death 350", "Observed ABX 12190 / No-ABX 2765", "Counterfactual ABX mort 0.023 (0.02, 0.025) / No-ABX mort 0.029 (0.023, 0.036)", "conclude No Recommendation from counterfactual diff -0.006 (-0.013, 0)", "Rbar=mean(mort ABX/NoABX) 1.654 (1.027, 2.588) P(Rbar<0.9)=0.004 P(Rbar>1.1)=0.954", "Ri^=postm(mort_i ABX/NoABX)1.654 (0.307, 6.138) prop(Ri^<0.9)=0.38 prop(Ri^>1.1)=0.501", "Average posteror prob P(Ri < 0.9) = 0.556, P(Ri > 1.1) = 0.366"],
       "color": "white",
       "children": [
         {
           "title": "copd_asthma_exacerbation == 0",
-          "details": ["N = 7716; Observed death 163", "Observed ABX 6112 / No-ABX 1604", "Counterfactual ABX mort 0.02 (0.017, 0.024) / No-ABX mort 0.029 (0.022, 0.036)", "conclude ABX from counterfactual diff -0.008 (-0.016, 0)", "R=mort ABX/NoABX 1.407 (0.889, 2.321) P(R<0.9)=0.035 P(R>1.1)=0.784"],
+          "details": ["N = 7716; Observed death 163", "Observed ABX 6112 / No-ABX 1604", "Counterfactual ABX mort 0.02 (0.017, 0.024) / No-ABX mort 0.029 (0.022, 0.036)", "conclude ABX from counterfactual diff -0.008 (-0.016, 0)", "Rbar=mean(mort ABX/NoABX) 1.407 (0.889, 2.321) P(Rbar<0.9)=0.035 P(Rbar>1.1)=0.784", "Ri^=postm(mort_i ABX/NoABX)1.407 (0.274, 5.082) prop(Ri^<0.9)=0.469 prop(Ri^>1.1)=0.414", "Average posteror prob P(Ri < 0.9) = 0.61, P(Ri > 1.1) = 0.314"],
           "color": "white",
           "children": [
             {
               "title": "virus == covid",
-              "details": ["N = 654; Observed death <=15", "Observed ABX 393 / No-ABX 261", "Counterfactual ABX mort 0.024 (0.018, 0.031) / No-ABX mort 0.025 (0.018, 0.034)", "conclude No Recommendation from counterfactual diff -0.001 (-0.012, 0.008)", "R=mort ABX/NoABX 2.008 (1.045, 4.436) P(R<0.9)=0.006 P(R>1.1)=0.962"],
+              "details": ["N = 654; Observed death <=15", "Observed ABX 393 / No-ABX 261", "Counterfactual ABX mort 0.024 (0.018, 0.031) / No-ABX mort 0.025 (0.018, 0.034)", "conclude No Recommendation from counterfactual diff -0.001 (-0.012, 0.008)", "Rbar=mean(mort ABX/NoABX) 2.008 (1.045, 4.436) P(Rbar<0.9)=0.006 P(Rbar>1.1)=0.962", "Ri^=postm(mort_i ABX/NoABX)2.008 (0.426, 6.254) prop(Ri^<0.9)=0.249 prop(Ri^>1.1)=0.628", "Average posteror prob P(Ri < 0.9) = 0.468, P(Ri > 1.1) = 0.445"],
               "color": "white",
               "children": []
             },
             {
               "title": "virus == flu",
-              "details": ["N = 150; Observed death <=15", "Observed ABX 106 / No-ABX 44", "Counterfactual ABX mort 0.006 (0.003, 0.01) / No-ABX mort 0.011 (0.003, 0.025)", "conclude No Recommendation from counterfactual diff -0.006 (-0.019, 0.004)", "R=mort ABX/NoABX 1.708 (0.237, 7.347) P(R<0.9)=0.419 P(R>1.1)=0.492"],
+              "details": ["N = 150; Observed death <=15", "Observed ABX 106 / No-ABX 44", "Counterfactual ABX mort 0.006 (0.003, 0.01) / No-ABX mort 0.011 (0.003, 0.025)", "conclude No Recommendation from counterfactual diff -0.006 (-0.019, 0.004)", "Rbar=mean(mort ABX/NoABX) 1.708 (0.237, 7.347) P(Rbar<0.9)=0.419 P(Rbar>1.1)=0.492", "Ri^=postm(mort_i ABX/NoABX)1.708 (0.254, 8.129) prop(Ri^<0.9)=0.44 prop(Ri^>1.1)=0.447", "Average posteror prob P(Ri < 0.9) = 0.67, P(Ri > 1.1) = 0.28"],
               "color": "white",
               "children": []
             },
             {
               "title": "virus == none",
-              "details": ["N = 6720; Observed death 147", "Observed ABX 5465 / No-ABX 1255", "Counterfactual ABX mort 0.021 (0.017, 0.024) / No-ABX mort 0.03 (0.022, 0.038)", "conclude ABX from counterfactual diff -0.009 (-0.017, -0.001)", "R=mort ABX/NoABX 1.328 (0.832, 2.219) P(R<0.9)=0.07 P(R>1.1)=0.698"],
+              "details": ["N = 6720; Observed death 147", "Observed ABX 5465 / No-ABX 1255", "Counterfactual ABX mort 0.021 (0.017, 0.024) / No-ABX mort 0.03 (0.022, 0.038)", "conclude ABX from counterfactual diff -0.009 (-0.017, -0.001)", "Rbar=mean(mort ABX/NoABX) 1.328 (0.832, 2.219) P(Rbar<0.9)=0.07 P(Rbar>1.1)=0.698", "Ri^=postm(mort_i ABX/NoABX)1.328 (0.271, 4.727) prop(Ri^<0.9)=0.494 prop(Ri^>1.1)=0.389", "Average posteror prob P(Ri < 0.9) = 0.623, P(Ri > 1.1) = 0.301"],
               "color": "white",
               "children": []
             },
@@ -120,7 +120,7 @@
             },
             {
               "title": "virus == rsv",
-              "details": ["N = 70; Observed death <=15", "Observed ABX 47 / No-ABX 23", "Counterfactual ABX mort 0.011 (0.005, 0.017) / No-ABX mort 0.018 (0.005, 0.032)", "conclude No Recommendation from counterfactual diff -0.007 (-0.024, 0.008)", "R=mort ABX/NoABX 1.694 (0.255, 6.027) P(R<0.9)=0.382 P(R>1.1)=0.513"],
+              "details": ["N = 70; Observed death <=15", "Observed ABX 47 / No-ABX 23", "Counterfactual ABX mort 0.011 (0.005, 0.017) / No-ABX mort 0.018 (0.005, 0.032)", "conclude No Recommendation from counterfactual diff -0.007 (-0.024, 0.008)", "Rbar=mean(mort ABX/NoABX) 1.694 (0.255, 6.027) P(Rbar<0.9)=0.382 P(Rbar>1.1)=0.513", "Ri^=postm(mort_i ABX/NoABX)1.694 (0.32, 5.759) prop(Ri^<0.9)=0.371 prop(Ri^>1.1)=0.471", "Average posteror prob P(Ri < 0.9) = 0.616, P(Ri > 1.1) = 0.322"],
               "color": "white",
               "children": []
             }
@@ -128,24 +128,24 @@
         },
         {
           "title": "copd_asthma_exacerbation == 1",
-          "details": ["N = 7239; Observed death 187", "Observed ABX 6078 / No-ABX 1161", "Counterfactual ABX mort 0.025 (0.021, 0.029) / No-ABX mort 0.029 (0.021, 0.039)", "conclude No Recommendation from counterfactual diff -0.004 (-0.015, 0.006)", "R=mort ABX/NoABX 1.917 (1.089, 3.354) P(R<0.9)=0.008 P(R>1.1)=0.974"],
+          "details": ["N = 7239; Observed death 187", "Observed ABX 6078 / No-ABX 1161", "Counterfactual ABX mort 0.025 (0.021, 0.029) / No-ABX mort 0.029 (0.021, 0.039)", "conclude No Recommendation from counterfactual diff -0.004 (-0.015, 0.006)", "Rbar=mean(mort ABX/NoABX) 1.917 (1.089, 3.354) P(Rbar<0.9)=0.008 P(Rbar>1.1)=0.974", "Ri^=postm(mort_i ABX/NoABX)1.917 (0.389, 6.958) prop(Ri^<0.9)=0.287 prop(Ri^>1.1)=0.593", "Average posteror prob P(Ri < 0.9) = 0.499, P(Ri > 1.1) = 0.421"],
           "color": "white",
           "children": [
             {
               "title": "virus == covid",
-              "details": ["N = 671; Observed death 20", "Observed ABX 456 / No-ABX 215", "Counterfactual ABX mort 0.032 (0.023, 0.042) / No-ABX mort 0.029 (0.019, 0.041)", "conclude No Recommendation from counterfactual diff 0.003 (-0.011, 0.018)", "R=mort ABX/NoABX 2.598 (1.204, 5.54) P(R<0.9)=0.002 P(R>1.1)=0.989"],
+              "details": ["N = 671; Observed death 20", "Observed ABX 456 / No-ABX 215", "Counterfactual ABX mort 0.032 (0.023, 0.042) / No-ABX mort 0.029 (0.019, 0.041)", "conclude No Recommendation from counterfactual diff 0.003 (-0.011, 0.018)", "Rbar=mean(mort ABX/NoABX) 2.598 (1.204, 5.54) P(Rbar<0.9)=0.002 P(Rbar>1.1)=0.989", "Ri^=postm(mort_i ABX/NoABX)2.598 (0.528, 9.676) prop(Ri^<0.9)=0.115 prop(Ri^>1.1)=0.793", "Average posteror prob P(Ri < 0.9) = 0.372, P(Ri > 1.1) = 0.549"],
               "color": "white",
               "children": []
             },
             {
               "title": "virus == flu",
-              "details": ["N = 194; Observed death <=15", "Observed ABX 153 / No-ABX 41", "Counterfactual ABX mort 0.01 (0.005, 0.016) / No-ABX mort 0.014 (0.003, 0.031)", "conclude No Recommendation from counterfactual diff -0.005 (-0.022, 0.007)", "R=mort ABX/NoABX 2.576 (0.389, 9.61) P(R<0.9)=0.265 P(R>1.1)=0.649"],
+              "details": ["N = 194; Observed death <=15", "Observed ABX 153 / No-ABX 41", "Counterfactual ABX mort 0.01 (0.005, 0.016) / No-ABX mort 0.014 (0.003, 0.031)", "conclude No Recommendation from counterfactual diff -0.005 (-0.022, 0.007)", "Rbar=mean(mort ABX/NoABX) 2.576 (0.389, 9.61) P(Rbar<0.9)=0.265 P(Rbar>1.1)=0.649", "Ri^=postm(mort_i ABX/NoABX)2.576 (0.429, 9.093) prop(Ri^<0.9)=0.211 prop(Ri^>1.1)=0.706", "Average posteror prob P(Ri < 0.9) = 0.555, P(Ri > 1.1) = 0.385"],
               "color": "white",
               "children": []
             },
             {
               "title": "virus == none",
-              "details": ["N = 5963; Observed death 159", "Observed ABX 5129 / No-ABX 834", "Counterfactual ABX mort 0.026 (0.021, 0.03) / No-ABX mort 0.031 (0.021, 0.04)", "conclude No Recommendation from counterfactual diff -0.005 (-0.016, 0.006)", "R=mort ABX/NoABX 1.772 (1.052, 3.044) P(R<0.9)=0.009 P(R>1.1)=0.96"],
+              "details": ["N = 5963; Observed death 159", "Observed ABX 5129 / No-ABX 834", "Counterfactual ABX mort 0.026 (0.021, 0.03) / No-ABX mort 0.031 (0.021, 0.04)", "conclude No Recommendation from counterfactual diff -0.005 (-0.016, 0.006)", "Rbar=mean(mort ABX/NoABX) 1.772 (1.052, 3.044) P(Rbar<0.9)=0.009 P(Rbar>1.1)=0.96", "Ri^=postm(mort_i ABX/NoABX)1.772 (0.377, 6.479) prop(Ri^<0.9)=0.315 prop(Ri^>1.1)=0.559", "Average posteror prob P(Ri < 0.9) = 0.511, P(Ri > 1.1) = 0.407"],
               "color": "white",
               "children": []
             },
@@ -157,7 +157,7 @@
             },
             {
               "title": "virus == rsv",
-              "details": ["N = 132; Observed death <=15", "Observed ABX 106 / No-ABX 26", "Counterfactual ABX mort 0.014 (0.005, 0.022) / No-ABX mort 0.018 (0.005, 0.034)", "conclude No Recommendation from counterfactual diff -0.004 (-0.022, 0.012)", "R=mort ABX/NoABX 2.809 (0.495, 11.195) P(R<0.9)=0.19 P(R>1.1)=0.711"],
+              "details": ["N = 132; Observed death <=15", "Observed ABX 106 / No-ABX 26", "Counterfactual ABX mort 0.014 (0.005, 0.022) / No-ABX mort 0.018 (0.005, 0.034)", "conclude No Recommendation from counterfactual diff -0.004 (-0.022, 0.012)", "Rbar=mean(mort ABX/NoABX) 2.809 (0.495, 11.195) P(Rbar<0.9)=0.19 P(Rbar>1.1)=0.711", "Ri^=postm(mort_i ABX/NoABX)2.809 (0.526, 11.185) prop(Ri^<0.9)=0.205 prop(Ri^>1.1)=0.72", "Average posteror prob P(Ri < 0.9) = 0.503, P(Ri > 1.1) = 0.432"],
               "color": "white",
               "children": []
             }
